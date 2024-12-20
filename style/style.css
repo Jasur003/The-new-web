@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    margin-top: 20px;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav_link{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    color: #3A3838;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: #EF4423;
+}
+.intro .container img{
+    margin-top: 15px;
+    margin-bottom: 36px;
+}
+.sec_box{
+    display: flex;
+}
+.sec_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+.sec_title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.27px;
+    color: #FFFFFF;
+    margin: 0 15px;
+}
+.sec_text{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #EBEBEB;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.title{
+    width: 200px;
+    margin: 40px auto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+    color: #3A3838;
+}
+.news{
+    background: #EDEDED;
+}
+.news_box{
+    display: flex;
+    justify-content: space-between;
+    background: #EDEDED;
+    gap: 30px;
+}
+.news_right{
+    padding-top: 20px;
+    padding-bottom: 31px;
+}
+.news_title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.78px;
+    color: #3A3838;
+    margin-bottom: 30px;
+   
+}
+.news_text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color: #686868;
+}
+.foot{
+    background: #3A3838;
+    margin-top: 50px;
+}
+.foot_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot_logo{
+    margin-top: 28px;
+    margin-bottom: 29px;
+}
+.foot_list{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.foot_link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    color: #FFFFFF;
+}
+.foot_link:hover{
+    color: #EF4423;
+}
+#first{
+    background: #B71C1C;
+    padding-bottom: 15px;
+}
+#second{
+    background: #6A1B9A;
+    padding-top: 15px;
+}
+#thirty{
+    background: #303F9F;
+    padding-bottom: 16px;
+}
+#fourty{
+    background: #00695C;
+    padding-top: 14px;
+}
+
